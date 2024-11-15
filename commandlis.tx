@@ -1,0 +1,58 @@
+pwd => can see the path way
+mkdir dev 
+ls => show what you've created before
+mkdir -p img/brand => can create folder two or three immediately
+tree . => folder structure (Some of bash can run this)
+cd 
+cd .. 
+touch index.html server.js => this is file create 
+ls -la => show what you've created before la is list all
+echo => write the text
+echo "body {} " > style.css => in file add text using with echo
+cat style.css => show file content 
+
+nano api.js => write the text file => ctrl+o (file save) => Enter => ctrl+x (exit)
+vim about.html (code editor) => click i => and can see INSERT then you can write => 
+esc (quit the INSERT mode) => :wq (: is can write command, w is save, q is quit)
+
+rm style.css => remove the file
+rm -R img => remove folder
+cp home.html page.html => copy the file home to page
+cp -R img => copy the folder
+mv home.html layout.html => move from home to layout.html
+
+cd ~/Desktop => home folder of desktop
+--------------------
+
+~, $ => normal user
+# => super user(admin)
+
+git tag 0.1.0 => version number
+git log => see the version
+git checkout 0.1.0 => go back to the version
+
+git branch -m master main => change the domain name
+git merge dev => merge dev to main
+git rebase dev => can see all of the branch of history
+
+create branch (2ways)
+* git branch branchname
+
+git terminal settings for mac and linux => oh my zsh website
+
+
+Working
+--------
+git init --bare => only save the history
+
+
+install github cli
+
+------------------------------------------
+
+npm installation
+----------------
+npm init -y => to install the npm
+npm i jest -D => devDependencies => only need in development 
+npm run script name => output script
+npm i http-server -D => server run
