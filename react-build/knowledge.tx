@@ -1,0 +1,10 @@
+In React => In Javascript
+--------------------------
+
+<p></p> -> React.createElement("p")
+
+function List() {
+    retur <ul></ul>
+}
+
+<List/> -> List()
